@@ -15,7 +15,8 @@ body {
 
 h1 {
     text-transform: uppercase;
-    color: #A99414;
+    color: #000000;
+    margin-top: 3em;
 }
 
 nav {
@@ -49,9 +50,21 @@ nav a {
     font-size: 1.5em;
 }
 
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    margin: 2em auto;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 1024px) {
     img {
-        width: 100%;
+        width: 90%;
     }
 
     nav a {
